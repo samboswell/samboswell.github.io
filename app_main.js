@@ -1,9 +1,9 @@
 class MasterButtons extends React.Component {
   render() {
     return (
-      <button className="studio"> Studio Art </button>
-        <button className="about"> About </button>
-          <button className="cs"> Computer Science </button>
+      <button type="button" className="studio"> Studio Art </button>
+        <button type="button" className="about"> About </button>
+          <button type="button" className="cs"> Computer Science </button>
     )
   }
 
